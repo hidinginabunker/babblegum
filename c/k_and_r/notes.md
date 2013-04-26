@@ -21,3 +21,7 @@ Notes on C
 
   When checking the overflow was getting some weirdness with print statements
   not appearing when expected.  Probably due to the stream buffer not being flushed
+
+1.5.1 File Copying
+  - subtle point, char isn't big enough to hold EOF, so we must use an int
+  - EOF is defined in stdio.h
