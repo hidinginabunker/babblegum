@@ -18,3 +18,6 @@ Notes on C
 
   Q: What is this value mean really?
   A: (2^32)/2 (remember it has to store for negative numbers and postiive)
+
+  When checking the overflow was getting some weirdness with print statements
+  not appearing when expected.  Probably due to the stream buffer not being flushed
