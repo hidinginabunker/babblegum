@@ -25,3 +25,8 @@ Notes on C
 1.5.1 File Copying
   - subtle point, char isn't big enough to hold EOF, so we must use an int
   - EOF is defined in stdio.h
+
+1.5.3
+  - can't seem to match the Mac delete key to the backslash escape code \b
+1.5.4
+  - Ex 1-12, having trouble with input that starts with leading spaces

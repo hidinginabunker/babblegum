@@ -39,9 +39,7 @@ main() {
   while( long_int+1 > 0) {
     long_int += 1;
   }
-  //printf("%d\t <= long <= \t%d\n", long_int+1, long_int);
-  // being warned I can't use %d anymore with long's ??
-  // I thought it was still an int?
+  printf("%ld\t <= long <= \t%ld\n", long_int+1, long_int);
 
   // this won't be accurate because we aren't expressing floating numbers by adding 1
   /*
